@@ -1,5 +1,41 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-go-logr-logr (1.2.3-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+
+  [ Shengjing Zhu ]
+  * New upstream release 1.2.3
+  * Update Standards-Version to 4.6.1 (no changes)
+  * Update Section to golang
+  * Breaks golang-k8s-klog-dev << 2.80.1
+  * Exclude new example when building
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 25 Oct 2022 02:17:19 +0800
+
+golang-github-go-logr-logr (0.4.0-1) unstable; urgency=medium
+
+  * Team upload
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Arthur Diniz ]
+  * debian/gbp.conf: Set pristine-tar to False
+  * New upstream version 0.4.0
+  * debian/control: Declare compliance with debian policy 4.5.1
+  * debian/copyright: Update copyright years and add myself
+  * debian/examples: Add examples file
+
+ -- Arthur Diniz <arthurbdiniz@gmail.com>  Thu, 28 Jan 2021 20:18:01 -0300
+
+golang-github-go-logr-logr (0.2.0-2) unstable; urgency=medium
+
+  * Source-only upload for testing migration
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 17 Jul 2020 02:56:58 +0800
+
+golang-github-go-logr-logr (0.2.0-1) unstable; urgency=medium
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 14 Jul 2020 02:05:41 +0800
